@@ -1,0 +1,28 @@
+#todo-app {
+    width: 300px;
+    margin: 0 auto;
+}
+
+#task-input {
+    width: 100%;
+    padding: 10px;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.task-item .delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
